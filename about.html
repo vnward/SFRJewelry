@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fran's SFR Jewelry</title>
+    <link rel="stylesheet" href="css/about.css">
+    <script src="responsive-nav.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="icon">
+      <img src="images/logo.png" alt="SFR Logo" class="icon">
+    </div>
+  
+    <a href="javascript:void(0);" class="nav-toggle" id="nav-toggle">&#9776;</a>
+
+  
+    <div class="nav-collapse">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="body">
+        <main>
+          <h1>About Us</h1>
+            <p>Hours: Sunday, Tuesday, Wednesday and Thursday, from 10 a.m. to 6 p.m., Friday to 1 p.m. Closed Mondays and Saturdays </p>
+            <p>
+            SFR Fine Jewelry, more commonly known as Fran's Jewelry, has been serving the Westchester community for more than 30 years. Founded in 1986 by Fran and currently nestled in the heart of Ardsley, SFR Fine Jewelry stands as a testament to three decades of passion, dedication and family values. Fran was famous for her keen eye, for sourcing unique pieces and her deep love for her customers.
+            At SFR Fine Jewelry, discerning patrons discover distinctive and precious adornments; each piece is hand-picked and reflects an appreciation for the rare, the extraordinary and our customers' preferences. The collections at SFR Fine Jewelry comprise an eclectic blend of styles, eras and cultures. Whether a vintage heirloom, timeless engagement ring, custom-designed vision or a contemporary marvel, each creation reflects an individual personality.
+            SFR's success is rooted in authentic client relationships that are built on honesty, respect and a shared appreciation for the exceptional. Fran understood that every piece holds a special place in a customer's heart. She took pride in offering a personalized experience and catering to the individual tastes and preferences of each customer. Her approach fostered enduring relationships built on trust and mutual appreciation that span generations and transcended business to establish an extended family. 
+            Over the years, SFR has garnered acclaim for designing and creating custom-designed fine jewelry. Our philosophy is that jewelry is an extension of one's individuality and through close collaboration with clients, we transform aspirations and inspirations into tangible, one-of-a-kind creations. Whether it's an engagement ring that captures a love story, a statement necklace that mirrors a unique personality, or an older heirloom in need of a refresh, we believe each piece tells a personal tale.
+            Our services include restoration and repair, and our commitment extends beyond mere repair; it's a pledge to safeguard the stories and sentimental value inherent in each item entrusted to us. Whether it's a vintage pocket watch passed down through generations or an intricate diamond necklace with deep family ties, we endeavor to preserve the essence of these cherished heirlooms.
+            As SFR looks to the future, Fran's legacy is being carried on by her children, Robert and Sandy. “Her philosophy is our guiding light: honesty foremost, dedication to our customers second, and continuously curating new collections that are singular and timeless. Collections that offer the finest aesthetic, craftsmanship and value. Our mom always said, 'care for the customer and help her spend her hard-earned money where it builds value and makes her dreams come alive.' "That's our calling," say Robert and Sandy.
+            </p>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; Fran's SFR Fine Jewelry | <a href="https://www.instagram.com/sfrjewelery/"><img src="images/insta.png" alt="insta"></a></p>
+        </footer>
+  </div>  
+    
+        
+        <script src="js/fastclick.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/fixed-responsive-nav.js"></script>
+        <script>
+          const navToggle = document.getElementById("nav-toggle");
+          const navCollapse = document.querySelector(".nav-collapse");
+        
+          navToggle.addEventListener("click", () => {
+            navCollapse.classList.toggle("active");
+            if (navCollapse.classList.contains("active")) {
+              navToggle.innerHTML = "&#10005;"; // ✕ X icon
+            } else {
+              navToggle.innerHTML = "&#9776;"; // ☰ Hamburger icon
+            }
+          });
+        </script>
+    </body>
+    </html>
